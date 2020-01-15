@@ -24,7 +24,7 @@ public class Player : MonoBehaviour {
 		this.movement = new Vector2(0, 0);
 		this.facing = new Vector2(0, 0);
 		
-		this.speed = 0.03f;
+		this.speed = 1f;
 		
 		
 		
@@ -48,7 +48,7 @@ public class Player : MonoBehaviour {
 	
 	private void MovementManager() {
 		// I need to define a new vector since `position` is in Vector3 form
-		this.movement = this.input * this.speed;
+		this.movement = this.input * this.speed * Time.fixedDeltaTime;
 		
 		this.moving = this.movement.magnitude > 0 ? true : false;
 		
