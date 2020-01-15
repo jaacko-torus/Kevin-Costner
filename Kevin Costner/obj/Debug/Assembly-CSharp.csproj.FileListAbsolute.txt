@@ -1,0 +1,2 @@
+c:\Users\Julian\Desktop\Unity\Kevin Costner\Kevin Costner\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+c:\Users\Julian\Desktop\Unity\Kevin Costner\Kevin Costner\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
